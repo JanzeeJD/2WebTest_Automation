@@ -1,0 +1,17 @@
+{
+  "name": "login-automation",
+  "version": "1.0.0",
+  "description": "Login test automation with Selenium and JavaScript",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "chromedriver": "^120.0.0",
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.16.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 15000
+  }
+}
